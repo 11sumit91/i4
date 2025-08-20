@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Tech Venture - Investor Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        }
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-4 sm:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-6xl font-black text-[#003f5c] mb-2">FEEL THE GAME. MASTER YOUR SWING.</h1>
+            <p class="text-lg md:text-xl text-[#58508d]">The Future of Elite Sports Training is Here.</p>
+        </header>
+
+        <section class="mb-16">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-[#003f5c]">The Problem: A Disconnected Reality</h2>
+                <p class="max-w-3xl mx-auto mt-2 text-gray-600">Modern training tools for aspiring athletes fall short, creating a significant gap between practice and actual performance.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="https://placehold.co/100x100/bc5090/ffffff?text=Toy" alt="VR Gaming is a Toy" class="mx-auto mb-4 rounded-full">
+                    <h3 class="text-xl font-bold text-[#bc5090]">VR Gaming is a Toy</h3>
+                    <p class="text-gray-600 mt-2">Lightweight controllers fail to build the real muscle memory required for professional sports.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="https://placehold.co/100x100/bc5090/ffffff?text=Data" alt="Analytics are Just Data" class="mx-auto mb-4 rounded-full">
+                    <h3 class="text-xl font-bold text-[#bc5090]">Analytics are Just Data</h3>
+                    <p class="text-gray-600 mt-2">Sensors provide stats after the fact, but offer no immersive, real-time feedback during practice.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="https://placehold.co/100x100/bc5090/ffffff?text=Gap" alt="The Training Gap" class="mx-auto mb-4 rounded-full">
+                    <h3 class="text-xl font-bold text-[#bc5090]">The Training Gap</h3>
+                    <p class="text-gray-600 mt-2">The result is a massive disconnect between playing a game and training for the real sport.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16 bg-white p-8 rounded-lg shadow-lg">
+             <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-[#003f5c]">The Solution: A Haptic Training System</h2>
+                <p class="max-w-3xl mx-auto mt-2 text-gray-600">We introduce the world's first fully integrated, haptic sports training system that builds real, transferable skills.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="flex flex-col items-center">
+                    <img src="https://placehold.co/300x300/ffa600/ffffff?text=Sleek+Cricket+Bat" alt="A sleek, modern cricket bat" class="rounded-lg shadow-md mx-auto w-48 h-48 object-cover">
+                    <h3 class="text-xl font-bold mt-4 text-[#ffa600]">The Smart Bat</h3>
+                    <p class="text-gray-600 mt-2 max-w-xs">A professional-grade bat with embedded sensors and an advanced haptic engine to simulate the real feel of impact.</p>
+                </div>
+                 <div class="flex flex-col items-center">
+                    <img src="https://placehold.co/300x300/ff6361/ffffff?text=Immersive+VR+Stadium" alt="First-person view of a cricket game in VR" class="rounded-lg shadow-md mx-auto w-48 h-48 object-cover">
+                    <h3 class="text-xl font-bold mt-4 text-[#ff6361]">The VR Simulation</h3>
+                    <p class="text-gray-600 mt-2 max-w-xs">A hyper-realistic training environment that provides data, analysis, and AI-driven coaching.</p>
+                </div>
+                 <div class="flex flex-col items-center">
+                    <img src="https://placehold.co/300x300/58508d/ffffff?text=Analytics+Dashboard" alt="A graphic representing data and analytics" class="rounded-lg shadow-md mx-auto w-48 h-48 object-cover">
+                    <h3 class="text-xl font-bold mt-4 text-[#58508d]">The AI Coach</h3>
+                    <p class="text-gray-600 mt-2 max-w-xs">Provides real-time feedback, performance analysis, and personalized drills to accelerate skill development.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-[#003f5c]">Market Opportunity</h2>
+                <p class="max-w-3xl mx-auto mt-2 text-gray-600">We are targeting a massive, passionate, and growing global market.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="text-5xl font-black text-[#003f5c]">$55B</p>
+                    <p class="text-lg font-semibold text-gray-700 mt-2">Global Sports Tech Market</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="text-5xl font-black text-[#ff6361]">$1.1B</p>
+                    <p class="text-lg font-semibold text-gray-700 mt-2">Global Cricket Tech Market</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="text-5xl font-black text-[#58508d]">2.5B</p>
+                    <p class="text-lg font-semibold text-gray-700 mt-2">Cricket Fans Worldwide</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="text-5xl font-black text-[#bc5090]">3+</p>
+                    <p class="text-lg font-semibold text-gray-700 mt-2">Platform Expansion Sports (Baseball, Golf, Tennis)</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+             <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-[#003f5c]">Competitive Advantage: The Sweet Spot</h2>
+                <p class="max-w-3xl mx-auto mt-2 text-gray-600">Our solution is uniquely positioned where high-fidelity realism and deep data analytics intersect.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="chart-container h-96 md:h-[500px]">
+                    <canvas id="competitiveChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-[#003f5c]">Business Model & Funding</h2>
+                 <p class="max-w-3xl mx-auto mt-2 text-gray-600">A dual revenue stream model designed for accessibility and long-term growth.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-center text-[#ffa600] mb-4">Dual Revenue Streams</h3>
+                    <div class="flex justify-around text-center">
+                        <div>
+                            <img src="https://placehold.co/80x80/ffa600/ffffff?text=Bat" alt="Hardware" class="mx-auto mb-2 rounded-full">
+                            <p class="font-bold text-lg">Hardware</p>
+                            <p class="text-2xl font-bold text-gray-800 mt-2">$499</p>
+                            <p class="text-sm text-gray-500">One-Time Purchase</p>
+                        </div>
+                        <div>
+                            <img src="https://placehold.co/80x80/ff6361/ffffff?text=Sub" alt="Subscription" class="mx-auto mb-2 rounded-full">
+                            <p class="font-bold text-lg">Subscription</p>
+                            <p class="text-2xl font-bold text-gray-800 mt-2">$19.99/mo</p>
+                            <p class="text-sm text-gray-500">Pro-Tier Access</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                     <h3 class="text-2xl font-bold text-center text-[#ff6361] mb-4">The Ask: $500,000</h3>
+                    <div class="chart-container h-64">
+                        <canvas id="fundingChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-[#003f5c]">Go-to-Market Strategy</h2>
+                 <p class="max-w-3xl mx-auto mt-2 text-gray-600">A phased approach to build credibility, drive adoption, and scale globally.</p>
+            </div>
+            <div class="relative">
+                <div class="border-l-4 border-[#58508d] ml-6 md:ml-0 md:border-l-0 md:border-t-4 md:w-2/3 md:mx-auto"></div>
+                <div class="flex flex-col md:flex-row justify-between mt-[-1rem] md:mt-0 md:pt-4 md:w-2/3 md:mx-auto">
+                    <div class="flex items-start md:flex-col md:items-center mb-8 md:mb-0">
+                        <div class="bg-[#58508d] rounded-full w-12 h-12 flex items-center justify-center text-white text-2xl font-bold z-10">1</div>
+                        <div class="ml-6 md:ml-0 md:mt-4 text-center">
+                            <h3 class="font-bold text-lg">Launch</h3>
+                            <p>Partner with Pro Academies</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start md:flex-col md:items-center mb-8 md:mb-0">
+                        <div class="bg-[#58508d] rounded-full w-12 h-12 flex items-center justify-center text-white text-2xl font-bold z-10">2</div>
+                        <div class="ml-6 md:ml-0 md:mt-4 text-center">
+                            <h3 class="font-bold text-lg">Growth</h3>
+                            <p>Direct-to-Consumer</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start md:flex-col md:items-center">
+                        <div class="bg-[#58508d] rounded-full w-12 h-12 flex items-center justify-center text-white text-2xl font-bold z-10">3</div>
+                        <div class="ml-6 md:ml-0 md:mt-4 text-center">
+                            <h3 class="font-bold text-lg">Scale</h3>
+                            <p>Expand to New Sports</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-[#003f5c]">See The Vision in Action</h2>
+                <p class="max-w-3xl mx-auto mt-2 text-gray-600">This concept video illustrates the immersive training experience.</p>
+            </div>
+            <div class="max-w-4xl mx-auto bg-white p-4 rounded-lg shadow-lg">
+                <div class="video-container">
+                    <video controls>
+                        <source src="http://googleusercontent.com/file_content/1" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            }
+            return label;
+        };
+
+        const wrapLabel = (label) => {
+            const maxLength = 16;
+            if (label.length <= maxLength) return label;
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+            words.forEach(word => {
+                if ((currentLine + word).length > maxLength) {
+                    lines.push(currentLine.trim());
+                    currentLine = '';
+                }
+                currentLine += word + ' ';
+            });
+            lines.push(currentLine.trim());
+            return lines;
+        };
+
+        const competitiveCtx = document.getElementById('competitiveChart').getContext('2d');
+        new Chart(competitiveCtx, {
+            type: 'bubble',
+            data: {
+                datasets: [{
+                    label: 'VR Gaming (iB Cricket)',
+                    data: [{ x: 2, y: 3, r: 15 }],
+                    backgroundColor: '#ff6361'
+                }, {
+                    label: 'Analytics Only (Str8bat)',
+                    data: [{ x: 8, y: 2, r: 15 }],
+                    backgroundColor: '#ffa600'
+                }, {
+                    label: 'Our Solution',
+                    data: [{ x: 9, y: 9, r: 25 }],
+                    backgroundColor: '#003f5c'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'bottom' },
+                    tooltip: { callbacks: { title: tooltipTitleCallback } }
+                },
+                scales: {
+                    x: {
+                        title: { display: true, text: 'Data & Analytics →', font: { size: 14, weight: 'bold' } },
+                        min: 0,
+                        max: 10,
+                        ticks: { display: false }
+                    },
+                    y: {
+                        title: { display: true, text: 'Realism & Haptic Feel →', font: { size: 14, weight: 'bold' } },
+                        min: 0,
+                        max: 10,
+                        ticks: { display: false }
+                    }
+                }
+            }
+        });
+
+        const fundingCtx = document.getElementById('fundingChart').getContext('2d');
+        new Chart(fundingCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['R&D and Prototyping', 'Hiring Key Talent', 'Patent Filing & Legal', 'Marketing & Biz Dev'],
+                datasets: [{
+                    label: 'Use of Funds',
+                    data: [40, 30, 20, 10],
+                    backgroundColor: ['#003f5c', '#58508d', '#bc5090', '#ff6361'],
+                    borderColor: '#fff',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { title: tooltipTitleCallback } }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
